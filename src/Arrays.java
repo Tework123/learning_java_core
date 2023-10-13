@@ -11,16 +11,18 @@ public class Arrays {
 //            System.out.println(j);
 //        }
 
-        String[] strings = new String[3];
-        strings[0] = "Hello";
+//        String[] strings = new String[3];
+//        strings[0] = "Hello";
+//
+//        String[] strings2 = {"hello", "hello2"};
+//
+//
+//        for (String string : strings2) {
+//            System.out.println(string);
+//        }
 
-        String[] strings2 = {"hello", "hello2"};
-
-
-        for (String string : strings2) {
-            System.out.println(string);
-        }
-
+        int x = (int) Math.pow(2, 3);
+        System.out.println(x);
 
     }
 }
