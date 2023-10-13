@@ -61,6 +61,7 @@ public class october_2023 {
 //            }
 //
 //        }
+        
 
 //        String s3 = new String("newString");
 //
@@ -77,7 +78,11 @@ public class october_2023 {
         } while (value < 5); {
                 System.out.println("Больше 5 походу");
             }
+            /*
+        hello me
+                today we write code
 
+             */
 
     }
 }
