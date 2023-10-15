@@ -62,12 +62,6 @@ public class chars {
 //        String resultEnd = result.trim().replace(" ", delimetr);
 //        System.out.println(resultEnd);
 
-        for (int i = 0; i < myArray.length; i++) {
-            if (!(myArray[i] <= 255 && myArray[i] >= 0)) {
-                check = false;
-                break;
-            }
-        }
 
     }
 
