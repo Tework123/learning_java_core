@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Arrays {
     public static void main(String[] args) {
 //        int[] numbers = new int[10];
@@ -48,22 +50,38 @@ public class Arrays {
 //        }
 
 
-        int n = 5;
-        int m = 6;
-        // пример заполнения
-        int[][][] mas = new int[2][3][4];
+//        int n = 5;
+//        int m = 6;
+//        // пример заполнения
+//        int[][][] mas = new int[2][3][4];
+//
+////        mas[1] = new int[][]{};
+//
+//        //пример вывода
+//        for (int i = 0; i < 2; i++) {
+//            System.out.println(java.util.Arrays.deepToString(mas[i]));
+//            for (int j = 0; j < mas[i].length; j++) {
+//
+////                for (int k = 0; k < mas[i][j].length; k++) {
+//                    System.out.println(mas[i][j][k]);
+//
+//                }
+//            }
+//        }
+//        Scanner sc = new Scanner(System.in);
+//
+//        String c = sc.nextLine();
 
-        mas[1] = new int[][]{};
-
-        //пример вывода
-        for (int i = 0; i < n; i++) {
-
-            for (int j = 0; j < mas[i].length; j++) //length
-                for (int k = 0; k < mas[i][j].length; k++) {
-                    System.out.println(mas[i][j][k]);
-
-                }
-        }
+//        зубчатый массив
+//        int[][] matrix = new int[3][];
+//        matrix[0] = new int[]{1, 2, 3, 4, 5, 6};
+//        matrix[1] = new int[]{1, 2, 3};
+//        matrix[2] = new int[]{1};
+//        for (int i = 0; i < matrix.length; i++) {
+//            for (int j = 0; j < matrix[i].length; j++)
+//                System.out.print(matrix[i][j] + " ");
+//            System.out.println();
+//        }
     }
 }
 
