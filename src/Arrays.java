@@ -82,6 +82,18 @@ public class Arrays {
 //                System.out.print(matrix[i][j] + " ");
 //            System.out.println();
 //        }
+
+        String[][] array = new String[2][];
+        array[0] = new String[]{"1", "1"};
+        array[1] = new String[]{"2", "2"};
+
+        for (int i = 0; i < array.length; i++) {
+            System.out.println(i);
+            System.out.println(java.util.Arrays.toString(array[i]));
+        }
+
+
+
     }
 }
 
