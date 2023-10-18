@@ -1,8 +1,11 @@
 import java.util.HashSet;
+import java.util.Arrays;
 
 public class HashSetExample {
     public static void main(String[] args) {
-
+        String[] yourArray = new String[5];
+        String yourValue = "asd";
+        Arrays.asList(yourArray).contains(yourValue);
 
         HashSet<String> states = new HashSet<String>();
 

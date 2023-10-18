@@ -19,20 +19,30 @@ public class ArrayListExample {
 //        }
 
 
-        Scanner sc = new Scanner(System.in);
-        ArrayList<String> myList = new ArrayList<>();
+//        Scanner sc = new Scanner(System.in);
+//        ArrayList<String> myList = new ArrayList<>();
+//
+//        String[] myStr = new String[6];
+//        String x = "he llo llo as";
+//
+//        for (int i = 0; i < 1; i++) {
+//            myStr = x.split(" ");
+////            myStr[i] = "1";
+//            System.out.println(Arrays.toString(myStr));
+//        }
+//
+//        for (int i = 0; i < 4; i++) {
+//            System.out.println(myStr[i]);
+//        }
 
-        String[] myStr = new String[6];
-        String x = "he llo llo as";
+        String[] start = {"1", "2s", "3"};
+        String[] end = {"2s", "3s"};
 
-        for (int i = 0; i < 1; i++) {
-            myStr = x.split(" ");
-//            myStr[i] = "1";
-            System.out.println(Arrays.toString(myStr));
-        }
+        for (int i = 0; i < end.length; i++) {
+            System.out.println(Arrays.asList(start).contains(end[i]));
 
-        for (int i = 0; i < 4; i++) {
-            System.out.println(myStr[i]);
         }
     }
 }
+
+
