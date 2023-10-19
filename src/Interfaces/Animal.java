@@ -16,8 +16,5 @@ public class Animal implements Info {
         System.out.println("Animal" + this.id);
     }
 
-    @Override
-    public int getId() {
-        return id;
-    }
+
 }

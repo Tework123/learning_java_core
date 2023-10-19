@@ -19,9 +19,5 @@ public class Person implements Info {
         System.out.println("ID" + this.name);
     }
 
-    @Override
-    public int getId() {
 
-        return id;
-    }
 }

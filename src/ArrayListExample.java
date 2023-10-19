@@ -3,7 +3,7 @@ import com.sun.source.tree.ArrayAccessTree;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Scanner;
-
+import java.util.Collections;
 public class ArrayListExample {
 
     public static void main(String[] args) {

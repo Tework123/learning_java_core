@@ -15,6 +15,12 @@ public class Test {
         test(animal, 2);
         test(dog1, 3);
         test(cat1, 123);
+        String x = "ASD";
+
+        Integer s = 1;
+        if (s instanceof Integer) {
+            System.out.println("123");
+        }
 
 
     }

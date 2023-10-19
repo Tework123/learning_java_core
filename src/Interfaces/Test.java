@@ -12,7 +12,6 @@ public class Test {
         person1.sayHello();
 
         info2.showInfo();
-        info2.getId();
 
     }
 

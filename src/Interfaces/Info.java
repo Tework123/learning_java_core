@@ -1,6 +1,5 @@
 package Interfaces;
 
 public interface Info {
-    public void showInfo();
-    public int getId();
+    void showInfo();
 }
