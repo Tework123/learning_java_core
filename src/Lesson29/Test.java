@@ -6,7 +6,6 @@ public class Test {
         animal.eat(1);
         Dog dog1 = new Dog();
         dog1.eat(2);
-        dog1.eat("salad");
 
         Cat cat1 = new Cat();
         cat1.eat(2);

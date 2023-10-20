@@ -4,8 +4,9 @@ public class Dog extends Animal {
 
     public String name = "GGG";
 
-    public void eat(String food) {
-        System.out.println("HELLLo "+food);
+
+    public void bark(String food) {
+        System.out.println("HELLLo " + food);
     }
 
 }
