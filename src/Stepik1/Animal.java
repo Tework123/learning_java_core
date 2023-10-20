@@ -1,6 +1,6 @@
 package Stepik1;
 
-public class Animal {
+public abstract class Animal implements Info{
     private static int countAnimal;
 
     static String description;
@@ -44,7 +44,7 @@ public class Animal {
                 + '}';
     }
 
-    void display() {
+    public void display() {
         System.out.println("I am:: " + this.getClass().getSimpleName());
         System.out.println("Type: " + this.type);
         System.out.println("Type: " + this.type);

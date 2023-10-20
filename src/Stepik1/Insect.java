@@ -1,6 +1,6 @@
 package Stepik1;
 
-public class Insect extends Animal {
+public class Insect extends Animal implements BreakWings, FreezeInter {
     boolean isWalk = true;
     String wingCount;
     String likeJesus;
@@ -9,7 +9,7 @@ public class Insect extends Animal {
         super(name, type);
     }
 
-    void display() {
+    public void display() {
         super.display();
         System.out.println("isFly: " + this.isFly);
         System.out.println("wingCount: " + this.wingCount);
@@ -18,6 +18,19 @@ public class Insect extends Animal {
 
     void Ggggg() {
         System.out.println("Ggggg");
+
+    }
+
+    public void Fly() {
+
+    }
+
+    public void freeze() {
+    }
+
+
+    @Override
+    public void breakWings() {
 
     }
 }

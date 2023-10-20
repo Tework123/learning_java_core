@@ -10,7 +10,7 @@ final public class Fish extends Animal {
         super(name, type);
     }
 
-    void display() {
+    public void display() {
         super.display();
         System.out.println("squama: " + this.squama);
         System.out.println("upStreamSwim: " + this.upStreamSwim);

@@ -1,6 +1,6 @@
 package Stepik1;
 
-public class Bird extends Animal {
+public class Bird extends Animal implements FlyInter{
     boolean isFly = true;
     String area;
     boolean winterFly;
@@ -8,7 +8,8 @@ public class Bird extends Animal {
     public Bird(String name, String type) {
         super(name, type);
     }
-    void display() {
+
+    public void display() {
         super.display();
         System.out.println("isFly: " + this.isFly);
         System.out.println("area: " + this.area);
@@ -19,6 +20,10 @@ public class Bird extends Animal {
 
     void chirik_chirik() {
         System.out.println("chirik_chirik");
+
+    }
+
+    public void Fly() {
 
     }
 
