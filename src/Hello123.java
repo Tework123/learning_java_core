@@ -9,6 +9,15 @@ public class Hello123 {
     public static void main(String[] args) {
         List<Animal> list = new ArrayList<>();
         Dog dog = new Dog();
+
+//         anonim classes
+        Dog dog2 = new Dog() {
+            public void bark(String food) {
+                System.out.println("HELLLo2222222 " + food);
+            }
+
+        };
+        dog2.bark("asd");
         list.add(dog);
         putList(list);
 

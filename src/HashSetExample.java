@@ -4,8 +4,12 @@ import java.util.Arrays;
 public class HashSetExample {
     public static void main(String[] args) {
         String[] yourArray = new String[5];
-        String yourValue = "asd";
+        String yourValue = "asdasdvv";
+
+        yourValue.toLowerCase().chars();
+        System.out.println(yourValue.toLowerCase().chars().distinct().count());
         Arrays.asList(yourArray).contains(yourValue);
+
 
         HashSet<String> states = new HashSet<String>();
 
